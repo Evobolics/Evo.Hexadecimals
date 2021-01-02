@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="../../eng/targets/net50_packaged.targets" />
+  <PropertyGroup>
+    <Authors>Evobolics</Authors>
+    <Company>Evobolics Digital, LLC</Company>
+    <Description>A hexadecimal helper for .NET 5.0</Description>
+    <Copyright>Copyright (c) 2021</Copyright>
+    <PackageProjectUrl>https://github.com/Evobolics/Evo.Hexadecimals</PackageProjectUrl>
+    <PackageTags>Hexadecimal helper Evobolics</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Evobolics/Evo.Hexadecimals</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>The package's code was written by Evobolics Digital, LLC, which was orginally forked from the Meadow under the MIT license.</PackageReleaseNotes>
+  </PropertyGroup>
+</Project>
