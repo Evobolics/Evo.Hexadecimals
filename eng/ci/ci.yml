@@ -2,7 +2,7 @@
 trigger:
   branches:  
     include:
-    - master
+    - main
     - feature/*
     - sprint/*
     - release/*
@@ -25,6 +25,6 @@ stages:
 - template: '/ci/stages.yml@pipelineTemplates'
   parameters:
     solutionFileName: Evo.Hexadecimals.sln
-    externalNugetFeed: ''
-    # externalNugetFeed: 'NugetDotOrg-Evo'
+    # externalNugetFeed: ''
+    externalNugetFeed: 'NugetDotOrg-Evo'
     
