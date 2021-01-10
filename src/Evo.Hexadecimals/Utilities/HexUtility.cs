@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 
-namespace Evo.Keccak
+namespace Evo.Utilities
 {
     /// <summary>
     /// Helper class for encoding and decoding between hex strings and bytes arrays/spans.
     /// </summary>
-    public static class HexUtil
+    public static class HexUtility
     {
 
         /// <summary>
